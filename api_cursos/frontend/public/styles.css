@@ -1,0 +1,261 @@
+/* =====================================================
+   styles.css — Vista de cursos
+   Bootstrap 5 base + CSS avanzado encima
+   ===================================================== */
+
+:root {
+  --brand: #1f3a5f;
+  --brand-light: #2c5282;
+  --accent: #f4a261;
+  --bg-card: #ffffff;
+  --bg-soft: #f7f8fa;
+  --radius: 12px;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 14px 28px rgba(0, 0, 0, 0.12);
+  --transition: 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Dark mode automático según el sistema */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand: #4a7bb7;
+    --brand-light: #6b9ad6;
+    --bg-card: #1e1e22;
+    --bg-soft: #141417;
+    color-scheme: dark;
+  }
+  body { background: var(--bg-soft); color: #e9ecef; }
+  .card, .list-card { background: var(--bg-card); color: #e9ecef; }
+  .card-body .text-muted, .card-body small { color: #adb5bd !important; }
+}
+
+body {
+  background: var(--bg-soft);
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Navbar con gradiente */
+.navbar-custom {
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-light) 100%);
+}
+
+/* =====================================================
+   VISTA CARDS — grid responsivo (4 cols por fila en desktop)
+   ===================================================== */
+.view-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+@media (max-width: 1199.98px) {
+  .view-cards { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 767.98px) {
+  .view-cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 479.98px) {
+  .view-cards { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-img-top {
+  height: 170px;
+  object-fit: cover;
+  background: linear-gradient(135deg, #e2e8f0, #cbd5e0);
+  transition: transform 400ms ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.04);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.card-meta {
+  font-size: 0.8rem;
+  color: #6c757d;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+}
+
+.card-meta i {
+  margin-right: 0.2rem;
+  color: var(--brand);
+}
+
+.card-footer-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.creditos {
+  font-weight: 700;
+  color: var(--brand);
+  font-size: 0.95rem;
+}
+
+/* Badges Activo / Inactivo */
+.badge-estado {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.3em 0.7em;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+.badge-estado.activo {
+  background: rgba(46, 139, 87, 0.12);
+  color: #2e8b57;
+  border: 1px solid rgba(46, 139, 87, 0.3);
+}
+.badge-estado.inactivo {
+  background: rgba(192, 57, 43, 0.12);
+  color: #c0392b;
+  border: 1px solid rgba(192, 57, 43, 0.3);
+}
+@media (prefers-color-scheme: dark) {
+  .badge-estado.activo { background: rgba(46, 139, 87, 0.2); color: #6fd49b; }
+  .badge-estado.inactivo { background: rgba(192, 57, 43, 0.2); color: #f1948a; }
+}
+
+/* =====================================================
+   VISTA LISTA — filas horizontales (imagen + datos)
+   ===================================================== */
+.view-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.list-card {
+  display: flex;
+  flex-direction: row;
+  background: var(--bg-card);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.list-card:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.list-card .list-img {
+  width: 220px;
+  min-height: 150px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #e2e8f0, #cbd5e0);
+}
+
+.list-card .list-body {
+  flex: 1;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.list-card h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.list-card .list-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.list-card .list-meta strong {
+  color: #495057;
+  margin-right: 0.25rem;
+}
+
+@media (max-width: 575.98px) {
+  .list-card { flex-direction: column; }
+  .list-card .list-img { width: 100%; height: 160px; }
+}
+
+/* =====================================================
+   Animaciones de entrada
+   ===================================================== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card, .list-card {
+  animation: fadeInUp 320ms ease both;
+}
+
+/* =====================================================
+   Botones del toolbar con efecto sutil
+   ===================================================== */
+.btn-group .btn {
+  transition: all 180ms ease;
+}
+.btn-group .btn:hover {
+  transform: translateY(-1px);
+}
+
+/* =====================================================
+   Utilidades
+   ===================================================== */
+.fallback-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.5rem;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "ejercicio1-backend",
+  "name": "api_cursos-backend",
   "version": "1.0.0",
   "description": "API REST de Cursos - Evaluacion 01",
   "main": "server.js",

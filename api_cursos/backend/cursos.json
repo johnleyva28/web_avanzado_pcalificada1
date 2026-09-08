@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "nombre": "Desarrollo de Soluciones en la Nube",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Walter Mauro Moncada Rubio",
+    "estado": "Activo",
+    "imagen": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 2,
+    "nombre": "Programación en Móviles Avanzado",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Jorge Ventura Gonzales",
+    "estado": "Activo",
+    "imagen": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 3,
+    "nombre": "Integración de Sistemas Empresariales",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 2,
+    "profesor": "Gissela García Uriol",
+    "estado": "Activo",
+    "imagen": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 4,
+    "nombre": "Desarrollo de Aplicaciones Web Avanzado",
+    "carrera": "Ingeniería de Software",
+    "creditos": 3,
+    "profesor": "Jorge Ventura Gonzales",
+    "estado": "Activo",
+    "imagen": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 5,
+    "nombre": "Diseño de Proyectos de Innovación",
+    "carrera": "Diseño UX/UI",
+    "creditos": 2,
+    "profesor": "Zack Rivasplata Horna",
+    "estado": "Activo",
+    "imagen": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 6,
+    "nombre": "Marketing y Comercialización de Nuevos Productos",
+    "carrera": "Ciberseguridad",
+    "creditos": 1,
+    "profesor": "Johny Castillo Silva",
+    "estado": "Activo",
+    "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 7,
+    "nombre": "Estructura de Datos y Algoritmos",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Walter Mauro Moncada Rubio",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 8,
+    "nombre": "Programación en Móviles",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Jorge Ventura Gonzales",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 9,
+    "nombre": "Desarrollo de Aplicaciones en Internet",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 3,
+    "profesor": "Omar Castañeda Rodríguez",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 10,
+    "nombre": "Introducción a los Algoritmos",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Mg. Carlos Ramírez Pérez",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 11,
+    "nombre": "Cálculo I",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Mg. Rosa Delgado Vargas",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 12,
+    "nombre": "Algoritmos y Estructura de Datos",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Dr. Luis Fernández Castro",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 13,
+    "nombre": "Diseño de Base de Datos",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Mg. Patricia Sánchez López",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 14,
+    "nombre": "Sistemas Operativos",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 4,
+    "profesor": "Mg. Andrés Quispe Mamani",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1591405351990-4726e331f141?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 15,
+    "nombre": "Redes y Comunicaciones de Datos",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 4,
+    "profesor": "Ing. Miguel Ángel Torres",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 16,
+    "nombre": "Arquitectura de Computadoras",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 4,
+    "profesor": "Mg. Jorge Salazar Rivera",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 17,
+    "nombre": "Inteligencia Artificial",
+    "carrera": "Ciencia de Datos",
+    "creditos": 4,
+    "profesor": "Dr. Eduardo Mendoza Salinas",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 18,
+    "nombre": "Aprendizaje Automático",
+    "carrera": "Ciencia de Datos",
+    "creditos": 3,
+    "profesor": "Mg. Carla Huamán Chávez",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 19,
+    "nombre": "Ciberseguridad Aplicada",
+    "carrera": "Ciberseguridad",
+    "creditos": 4,
+    "profesor": "Ing. Pedro Huamán Flores",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 20,
+    "nombre": "Computación en la Nube",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 3,
+    "profesor": "Mg. Sofía Castillo Mendoza",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 21,
+    "nombre": "Big Data y Análisis de Datos",
+    "carrera": "Ciencia de Datos",
+    "creditos": 4,
+    "profesor": "Dr. Fernando Rojas Aguilar",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 22,
+    "nombre": "Internet de las Cosas",
+    "carrera": "Ingeniería de Sistemas",
+    "creditos": 3,
+    "profesor": "Mg. Ricardo Paredes Núñez",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 23,
+    "nombre": "Diseño de Experiencia de Usuario",
+    "carrera": "Diseño UX/UI",
+    "creditos": 3,
+    "profesor": "Mg. Lucía Torres Bravo",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 24,
+    "nombre": "DevOps y Entrega Continua",
+    "carrera": "Ingeniería de Software",
+    "creditos": 3,
+    "profesor": "Ing. Roberto Díaz Vargas",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 25,
+    "nombre": "Arquitectura de Software",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Mg. Daniel Gutiérrez Romero",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 26,
+    "nombre": "Calidad y Pruebas de Software",
+    "carrera": "Ciberseguridad",
+    "creditos": 3,
+    "profesor": "Mg. María Quispe Ramos",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 27,
+    "nombre": "Gestión de Proyectos de Software",
+    "carrera": "Ingeniería de Software",
+    "creditos": 3,
+    "profesor": "Mg. Ana Vargas Ponce",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 28,
+    "nombre": "Ingeniería de Requisitos",
+    "carrera": "Ingeniería de Software",
+    "creditos": 3,
+    "profesor": "Mg. Johny Castillo Silva",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=250&fit=crop"
+  },
+  {
+    "id": 29,
+    "nombre": "Compiladores",
+    "carrera": "Ingeniería de Software",
+    "creditos": 4,
+    "profesor": "Dr. Walter Moncada Rubio",
+    "estado": "Inactivo",
+    "imagen": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&h=250&fit=crop"
+  }
+]
