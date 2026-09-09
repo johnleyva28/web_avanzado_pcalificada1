@@ -23,7 +23,7 @@ Este repositorio contiene la solución completa de la **Evaluación 01** del cur
 ## 👥 Autores
 
 - **John Marco Leyva Nuñez** — `john.leyva@tecsup.edu.pe`
-- **Gian Marco De la Cruz Bernardo**
+- **Gian Marco De la Cruz Bernardo** �^`^t `gian.delacruz@tecsup.edu.pe`
 
 **Carrera:** Diseño y Desarrollo de Software
 **Ciclo:** V
@@ -144,24 +144,6 @@ npm start
 - **`.env` ignorado por git** — tanto en `api_cursos/` como en `ejercicio2/`. La apiKey de NewsAPI nunca se sube al repositorio.
 - **CORS abierto solo en desarrollo** — el frontend consume `/api/noticias` desde el mismo origen en producción (Render).
 - **NewsAPI key**: nunca compartas tu clave en issues, PRs o capturas. Si la exponés accidentalmente, rotala desde https://newsapi.org/account.
-
----
-
-## 📸 Capturas y entrega
-
-La guía paso a paso para capturar todo lo que pide la rúbrica está en:
-
-- `api_cursos/instrucciones.md` — capturas de Postman + frontend + código fuente
-- `ejercicio2/README.md` — cómo levantar el panel de noticias
-
----
-
-## 📚 Licencia y atribuciones
-
-- **Imágenes de cursos**: Unsplash License (uso libre). Ver [`api_cursos/backend/imagenes-cursos.md`](./api_cursos/backend/imagenes-cursos.md) para el registro completo de URLs.
-- **Datos de noticias**: NewsAPI (https://newsapi.org) — plan free, 100 requests/día.
-- **Bootstrap 5.3**: MIT License.
-- **Express**: MIT License.
 
 ---
 
