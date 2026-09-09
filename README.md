@@ -1,11 +1,11 @@
-# web_avanzado_pcalificada1
+# `web_avanzado_pcalificada1`
 
-Evaluación 01 — Desarrollo de Aplicaciones Web Avanzado · TECSUP · Ciclo V · 2026-II
+**Evaluación 01** — Desarrollo de Aplicaciones Web Avanzado · TECSUP · Ciclo V · 2026-II
 
 [![Deploy](https://img.shields.io/badge/Render-live-46E3B7?logo=render&logoColor=white)](https://web-avanzado-pcalificada1.onrender.com)
 [![Repo](https://img.shields.io/badge/GitHub-repo-181717?logo=github&logoColor=white)](https://github.com/johnleyva28/web_avanzado_pcalificada1)
-[![Node](https://img.shields.io/badge/Node-%E2%89%A518-339933?logo=node.js&logoColor=white)]()
-[![License](https://img.shields.io/badge/License-Academic-blue)]()
+![Node](https://img.shields.io/badge/Node-%E2%89%A518-339933?logo=node.js&logoColor=white)
+![License](https://img.shields.io/badge/License-Academic-blue)
 
 ---
 
@@ -23,7 +23,7 @@ Este repositorio contiene la solución completa de la **Evaluación 01** del cur
 ## 👥 Autores
 
 - **John Marco Leyva Nuñez** — `john.leyva@tecsup.edu.pe`
-- **Gian Marco De la Cruz Bernardo** �^`^t `gian.delacruz@tecsup.edu.pe`
+- **Gian Marco De la Cruz Bernardo** — `gian.delacruz@tecsup.edu.pe`
 
 **Carrera:** Diseño y Desarrollo de Software
 **Ciclo:** V
@@ -34,11 +34,15 @@ Este repositorio contiene la solución completa de la **Evaluación 01** del cur
 
 ## 🚀 Demo en vivo
 
-El Ejercicio 2 está desplegado en Render:
+### Ejercicio 1 — API REST de Cursos (frontend desplegado en Vercel)
+
+🔗 **https://api-cursos-web-p1.vercel.app**
+
+> El backend Express puede correr local con `npm start` en `api_cursos/backend/` (puerto 3000) para obtener la captura de Postman desde el entorno del estudiante.
+
+### Ejercicio 2 — Panel de Noticias (desplegado en Render)
 
 🔗 **https://web-avanzado-pcalificada1.onrender.com**
-
-> El Ejercicio 1 (API REST de Cursos) es local por diseño — corre con `npm start` en cada máquina para que la captura de Postman y la vista del frontend se obtengan del entorno del estudiante.
 
 ---
 
